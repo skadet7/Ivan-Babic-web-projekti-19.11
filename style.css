@@ -1,38 +1,40 @@
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 20px;
     padding: 20px;
 }
 
-.product {
+.produkt {
     border: none;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
+    height: 600px;
 }
 
-.product:hover {
-
+.produkt:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.product img {
+.produkt img {
     max-width: 100%;
 }
 
-.product h2 {
-    font-size: 1.2em;
+.produkt h2 {
+    font-size: 15px;
     margin: 10px 0;
+
 }
 
-.product p {
-    margin: 5px 0;
+.produkt p {
+    margin: 7px 0;
 }
 
-.price {
+.cijena {
     font-size: 25px;
-    color: red;
+    color: black;
+    font-weight: bold;
 }
 
 .promo {
@@ -43,8 +45,8 @@
     border: none;
 }
 
-.stock {
-    color: lightgreen;
+.kolicina {
+    color: rgb(37, 237, 37);
     font-weight: 600;
     padding: 5px;
     margin-top: 10px;
